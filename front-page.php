@@ -34,6 +34,12 @@ get_header();
 <section class="section3">
 	<div class="news">
 		<h1>Nyhetsflöde</h1>
+		<div class="coverflow">
+		    <div class="cover">A</div>
+		    <div class="cover">B</div>
+		    <div class="cover">Y</div>
+		    <div class="cover">Z</div>
+		</div>
 	</div>
 </section>
 

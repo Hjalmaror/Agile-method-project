@@ -20,6 +20,12 @@
 </div>
 <!-- /#pagewrap -->
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script> <!-- jquery-ui -->
+<script src="<?php echo get_template_directory_uri(); ?>/js/theme.script.js"></script> <!-- tema script -->
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.coverflow.js"></script> <!-- coverflow -->
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script> <!-- my scripts -->
 <!-- wp_footer -->
 <?php wp_footer(); ?>
 

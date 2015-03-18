@@ -24,9 +24,6 @@
 <!-- wp_header -->
 <?php wp_head(); ?>
 
-<?php // include theme.script.js  ?>
-<script src="<?php echo get_template_directory_uri(); ?>/js/theme.script.js"></script>
-
 <?php // enqueue comment-reply.js (require for threaded comments)
 	if ( is_singular() && get_option( 'thread_comments' ) )	wp_enqueue_script( 'comment-reply' ); 
 ?>
