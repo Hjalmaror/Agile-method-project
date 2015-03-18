@@ -10,4 +10,6 @@
 echo 'Frontpage';
 
 get_header();
+
 ?>
+

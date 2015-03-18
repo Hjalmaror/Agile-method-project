@@ -40,8 +40,8 @@
 	<header id="header" class="pagewidth">
 
 		<hgroup>
-			<h1 id="site-logo"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-			<h2 id="site-description"><?php bloginfo('description'); ?></h2>
+<!-- 			<h1 id="site-logo"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+			<h2 id="site-description"><?php bloginfo('description'); ?></h2> -->
 		</hgroup>
 
 		<?php // main navigation ?>
@@ -50,12 +50,12 @@
 		</nav>
 
 		<?php // get searchform.php ?>
-		<div id="searchform-wrap">
+		<!-- <div id="searchform-wrap">
 			<?php get_search_form(); ?>
-		</div>
+		</div> -->
 
 		<div class="social-widget">
-			<div class="rss"><a href="<?php echo bloginfo('rss2_url'); ?>">RSS</a></div>
+			<!-- <div class="rss"><a href="<?php echo bloginfo('rss2_url'); ?>">RSS</a></div> -->
 		</div>
 		<!-- /.social-widget -->
 
