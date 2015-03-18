@@ -7,9 +7,19 @@
  * @subpackage Agile
  * @since 1.0
  */
-echo 'Frontpage';
 
 get_header();
 
+?>
+
+<div id="container">
+	<div id="code">
+		<h1>Crack the code</h1>
+		<input type="text" />
+	</div>
+</div>
+
+<?php
+get_footer();
 ?>
 

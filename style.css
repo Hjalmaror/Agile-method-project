@@ -156,7 +156,7 @@ STRUCTURE
 *************************************************************************************/
 /* main page width */
 .pagewidth {
-	width: 978px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -1021,3 +1021,37 @@ CLEAR & ALIGNMENT
 /* clearfix for ie7 */
 .clearfix, .widget li, #body, #footer, footer, .pagenav, #main-nav, .menu, .gallery, #content
 { display: block; zoom: 1; }
+
+/************************************************************************************
+FRONTPAGE
+*************************************************************************************/
+header {
+
+}
+
+#container {
+	background: darkgray;
+	width: 100%;
+	height: 100vh;
+}
+
+#code {
+	position: absolute;
+	top: 40vh;
+	left: 30vw;
+}
+
+#code h1, #code input {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	font-size: 24px;
+	font-family: 'Courier New', serif;
+	color: white;
+}
+
+#code input {
+	width: 500px;
+	height: 30px;
+	color: darkgray;
+}
