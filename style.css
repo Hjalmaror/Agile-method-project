@@ -1041,14 +1041,11 @@ header {
 
 #code {
 	padding-top: 30vh;
-}
-
-#code h1, #code input {
 	margin: 0 auto;
 	text-align: center;
 	display: block;
-	font-size: 24px;
-	font-family: 'Courier New', serif;
+	font-size: 16px;
+	font-family: 'Courier New', monospace;
 	color: white;
 }
 
