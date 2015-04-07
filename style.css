@@ -1040,9 +1040,7 @@ header {
 }
 
 #code {
-	position: absolute;
-	top: 40vh;
-	left: 30vw;
+	padding-top: 30vh;
 }
 
 #code h1, #code input {
