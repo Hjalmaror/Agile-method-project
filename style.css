@@ -878,14 +878,15 @@ FOOTER
 #footer {
 	padding: 30px 0;
 	clear: both;
-	border-top: solid 1px #ccc;
+	margin-top: 35px;
+	text-align: center;
 }
 
 /* back to top */
 .back-top {
 	clear: both;
-	float: left;
-	margin-top: -3px;
+	float: right;
+	margin-right: 30px;
 }
 .back-top a {
 	background: #000 url(images/arrow-up.png) no-repeat center center;
@@ -1074,4 +1075,5 @@ header {
 .news {
 	width: 100%;
 	margin: 0 auto;
+	padding: 20px 0;
 }
